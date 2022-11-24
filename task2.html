@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=dc, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Task.2
+        // 2.1 eded daxil edin. Eger o eded 50den kicikdirse o edede qeder 3-e bolunen ededlerin sayini ekrana cixardan bir function yazin.
+
+        function eded(a) {
+            let reqem = 0;
+            if (a < 50) {
+                for (let i = 0; i < a; i++) {
+
+                    if (i % 3 == 0) {
+                        reqem++
+
+                        document.write(i + "<br>");
+                    }
+
+                }
+            }
+            else {
+                document.write("Eded 30>a daxilin deyil" + "<br>")
+            }
+        }
+        eded(32)    // her birinde isleyir
+        eded(53)    // her birinde isleyir
+
+
+    </script>
+</body>
+
+</html>

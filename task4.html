@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Task.4
+        // 4.1 eded daxil edin. Eger o eded 100den boyukdurse o edede qeder 8 e bolunen ededlerin sayini ekrana cixardan bir function yazin.
+
+        function eded(a) {
+            reqem = 0;
+            if (a > 100) {
+                for (let i = 0; i < a; i++) {
+
+                    if (i % 8 == 0) {
+                        reqem++
+
+                        document.write(i + "<br>");
+                    }
+
+                }
+            }
+            else {
+                document.write("Eded 100 < a sertini odemir" + "<br>")
+            }
+        }
+
+        eded(32)    // her birinde isleyir
+        eded(120)    // her birinde isleyir
+
+
+    </script>
+</body>
+
+</html>
